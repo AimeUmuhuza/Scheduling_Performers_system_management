@@ -73,3 +73,8 @@ System Development: Designing and developing the software system to handle perfo
 Database Management: Creating and maintaining a centralized database to store and manage performer information, including names, contact details, genres, availability, performance history, and technical requirements.
 
 Event Scheduling: Building features to allow event organizers to create, manage, and schedule events or performances. This includes defining event details, assigning performers to specific time slots or stages, and managing event-related information.
+
+PROJECT DEPLOYMENT
+
+The project is deployed on this link: http://198.177.124.39:3700/login
+
