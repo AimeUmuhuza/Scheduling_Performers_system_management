@@ -1,0 +1,36 @@
+version: '3'
+services:
+  web:
+    build: .
+    depends_on:
+      - postgres
+    ports:
+    - 9092:9092
+    networks:
+      - duka
+  postgres:
+    image: postgres
+    restart: always
+    networks:
+      - duka
+    environment:
+      - POSTGRES_USER=duka
+      - POSTGRES_PASSWORD=duka
+    volumes:
+    - postgresql:/var/lib/postgresql
+    - postgresql_data:/var/lib/postgresql/data
+  adminer:
+    depends_on:
+      - postgres
+    restart: always
+    image: adminer
+    networks:
+      - duka
+    ports:
+    - 8080:8080
+networks:
+  duka:
+    driver: bridge
+volumes:
+  postgresql:
+  postgresql_data:

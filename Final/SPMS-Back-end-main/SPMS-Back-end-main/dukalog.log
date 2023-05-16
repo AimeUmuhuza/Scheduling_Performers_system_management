@@ -1,0 +1,47 @@
+2023-05-09 20:55:00.666  INFO 4836 --- [restartedMain] c.e.s.d.DukaChallengeApplication         : Starting DukaChallengeApplication using Java 1.8.0_371 on MacBook-Air.local with PID 4836 (/Users/nishimweelysee/Desktop/aim/elysee-dukachallenge/target/classes started by nishimweelysee in /Users/nishimweelysee/Desktop/aim/elysee-dukachallenge)
+2023-05-09 20:55:00.670  INFO 4836 --- [restartedMain] c.e.s.d.DukaChallengeApplication         : No active profile set, falling back to default profiles: default
+2023-05-09 20:55:00.742  INFO 4836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-09 20:55:00.743  INFO 4836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-09 20:55:02.462  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09 20:55:02.613  INFO 4836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139 ms. Found 2 JPA repository interfaces.
+2023-05-09 20:55:03.274  INFO 4836 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@475bf123' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-09 20:55:03.290  INFO 4836 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-09 20:55:03.740  INFO 4836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2023-05-09 20:55:03.756  INFO 4836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-09 20:55:03.756  INFO 4836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2023-05-09 20:55:03.833  INFO 4836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-09 20:55:03.834  INFO 4836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3090 ms
+2023-05-09 20:55:04.257  INFO 4836 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09 20:55:04.299  INFO 4836 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-05-09 20:55:04.516  INFO 4836 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-09 20:55:04.615  INFO 4836 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-09 20:55:05.101  INFO 4836 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-09 20:55:05.115  INFO 4836 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-09 20:55:05.843  INFO 4836 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09 20:55:05.855  INFO 4836 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 20:55:06.349  WARN 4836 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-09 20:55:07.104  INFO 4836 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-05-09 20:55:07.631  INFO 4836 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ad12865, org.springframework.security.web.context.SecurityContextPersistenceFilter@362157b9, org.springframework.security.web.header.HeaderWriterFilter@41016618, org.springframework.web.filter.CorsFilter@644e87d8, org.springframework.security.web.authentication.logout.LogoutFilter@70bf843d, com.elysee.springapp.dukachallenge.security.jwt.JwtAuthenticationTokenFilter@60625ecb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@149c125d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79062f3f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41a1593a, org.springframework.security.web.session.SessionManagementFilter@52eaa6b0, org.springframework.security.web.access.ExceptionTranslationFilter@3f22663d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cd87036]
+2023-05-09 20:55:07.789  INFO 4836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-09 20:55:08.016  WARN 4836 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9092 is already in use
+2023-05-09 20:55:08.022  INFO 4836 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 20:55:08.028  INFO 4836 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-09 20:55:08.039  INFO 4836 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-09 20:55:08.051  INFO 4836 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-09 20:55:08.097  INFO 4836 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-09 20:55:08.129 ERROR 4836 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9092 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9092 or configure this application to listen on another port.
+
